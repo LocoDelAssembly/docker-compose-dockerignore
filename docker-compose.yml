@@ -1,4 +1,4 @@
 version: "2.1"
 services:
   test:
-    build: .
+    build: https://github.com/LocoDelAssembly/docker-compose-dockerignore.git#mock-remote-repo
