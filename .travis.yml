@@ -1,0 +1,10 @@
+kkdist: bionic
+language: minimal
+branches:
+  only:
+  - /.*/
+services:
+  - docker
+install:
+script:
+  - docker-compose up
