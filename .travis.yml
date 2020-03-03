@@ -6,5 +6,6 @@ branches:
 services:
   - docker
 install:
+  docker build -t test-image https://github.com/LocoDelAssembly/docker-compose-dockerignore.git#mock-remote-repo
 script:
   - docker-compose up
