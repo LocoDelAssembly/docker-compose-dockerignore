@@ -1,4 +1,4 @@
-kkdist: bionic
+dist: bionic
 language: minimal
 branches:
   only:
