@@ -10,3 +10,6 @@ As master branch, but [using docker](https://github.com/LocoDelAssembly/docker-c
 
 ## mock-remote-repo branch [![Build Status](https://travis-ci.org/LocoDelAssembly/docker-compose-dockerignore.svg?branch=mock-remote-repo)](https://travis-ci.org/LocoDelAssembly/docker-compose-dockerignore)
 Builds with docker-compose but this time building locally. `.dockerignore` file is processed correctly without having to build separately like in build-with-docker branch.
+
+# UPDATE
+I tried on [use-buildkit branch](https://github.com/LocoDelAssembly/docker-compose-dockerignore/tree/use-buildkit) what was suggested by @thaJeztah in https://github.com/docker/compose/issues/1607#issuecomment-594615886. It works fine when using `COMPOSE_DOCKER_CLI_BUILD=1` only. When using `DOCKER_BUILDKIT=1` it fails for completely different reasons, but might be happening because something is not set up right. [Build results](https://travis-ci.org/LocoDelAssembly/docker-compose-dockerignore/builds/658351109)
