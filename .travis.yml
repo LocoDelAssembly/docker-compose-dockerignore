@@ -5,8 +5,8 @@ branches:
   - /.*/
 
 env:
-  - DOCKER_COMPOSE_VERSION=1.26.0-rc2
-  - DOCKER_COMPOSE_VERSION=1.25.4
+  - DOCKER_COMPOSE_VERSION=1.26.0-rc3
+  - DOCKER_COMPOSE_VERSION=1.25.5
 
 before_install:
   - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
